@@ -1,0 +1,33 @@
+.Header {
+    margin: 1em 1em 1.5em 1em;
+}
+
+.FormContainer {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.FormContainer form:not(button) {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 0em 0.5em;
+}
+
+.FormContainer input, .FormContainer button {
+    width: 75%;
+    justify-self: center;
+}
+
+.multiselectContainer {
+    justify-self: center;
+    width: 80%;
+}
+
+.multiselectContainer label:nth-child(2n+1) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

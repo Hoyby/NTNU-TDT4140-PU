@@ -1,0 +1,22 @@
+.ProfileBox {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em auto;
+    width: 30%;
+    min-width: 500px;
+    height: 10cm;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 3px 5px 10px #3aa567;
+    justify-content: space-evenly;
+    position: left;
+
+}
+
+.text {
+    margin-left: 5em;
+}
+
+.header {
+    margin-left: 1em;
+}

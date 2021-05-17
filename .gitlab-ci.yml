@@ -1,0 +1,29 @@
+stages:
+    - test
+    - lint
+
+cache:
+    paths:
+        - node_modules
+
+testFrontend:
+    image: node
+    stage: test
+    script:
+        - cd frontend
+        - yarn install
+        - yarn test
+    only:
+        - master
+        - merge_requests
+
+lintFrontend:
+    image: node
+    stage: lint
+    script:
+        - cd frontend
+        - yarn install
+        - yarn run eslint src/**/*.js
+    only:
+        - master
+        - merge_requests

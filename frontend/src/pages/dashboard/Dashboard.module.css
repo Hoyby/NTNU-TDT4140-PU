@@ -1,0 +1,22 @@
+.Root {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactInformation {
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto;
+    width: 20%;
+    min-width: 500px;
+    height: 3cm;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 3px 5px 10px #eb5757;
+}
+
+.ContactInformationText {
+    margin-left: 15%;
+}

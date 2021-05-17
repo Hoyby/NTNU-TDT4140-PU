@@ -1,0 +1,9 @@
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS"
+
+export const LOGIN_FAILURE = "LOGIN_FAILURE"
+
+export const REGISTER_PROFILE = "REGISTER_PROFILE"
+
+export const REMOVE_PROFILE = "REMOVE_PROFILE"
+
+export const LOGOUT = "LOGOUT"

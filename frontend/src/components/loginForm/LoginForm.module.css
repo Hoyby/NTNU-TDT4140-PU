@@ -1,0 +1,9 @@
+.Header {
+    margin: 1em 1em 1.5em 1em;
+}
+
+.Form {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+}

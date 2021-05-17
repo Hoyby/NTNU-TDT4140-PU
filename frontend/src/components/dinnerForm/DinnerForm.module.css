@@ -1,0 +1,46 @@
+.Header {
+    margin: 1em 1em 1.5em 1em;
+}
+
+.FormContainer {
+    text-align: center;
+    width: 30%;
+    border: 1px solid black;
+    margin: 2em auto;
+}
+
+.inputRow2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Input2 {
+    max-width: 50%;
+}
+
+.inputRow3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Input3 {
+    max-width: 50%;
+}
+
+.allergies {
+
+    padding: 0% 20% 0% 20%;
+    
+}
+
+.foodType {
+
+    padding: 0% 20% 0% 20%;
+    
+}
+
+.PublishButton {
+    width: 40%;
+    justify-self: center;
+}
+

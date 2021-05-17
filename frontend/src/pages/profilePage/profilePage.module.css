@@ -1,0 +1,14 @@
+.DinnerBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    font-size: 50px;
+    text-align: center;
+}
+
+.ProfilHeader {
+    font-size: 50px;
+    text-align: center; 
+}

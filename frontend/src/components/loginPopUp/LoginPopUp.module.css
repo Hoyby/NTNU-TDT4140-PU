@@ -1,0 +1,12 @@
+.Root {
+    position: absolute;
+    top: 30%;
+    bottom: 15%;
+    right: 35%;
+    width: 30%;
+    height: fit-content;
+    z-index: 1;
+
+    background-color: white;
+    border-radius: 2%;
+}

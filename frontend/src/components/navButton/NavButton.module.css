@@ -1,0 +1,21 @@
+.Button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-family: inherit;
+}
+
+.Button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #EB5757;
+}
+
+.ButtonSelected {
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-family: inherit;
+    text-decoration: underline;
+    text-decoration-color: #EB5757;
+}
